@@ -1,9 +1,18 @@
 import React from "react";
 
+import Header from "./components/Header";
+import Resume from "./components/Resume";
+
+import GlobalStyle from "./styles/global";
+
 export const App = () => {
     return (
-        <div>App</div>
+        <>
+            <Header />
+            <Resume />
+            <GlobalStyle />
+        </>
     );
-}
+};
 
 export default App;
