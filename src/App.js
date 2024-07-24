@@ -1,18 +1,16 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
+import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
 
-import GlobalStyle from "./styles/global";
-
-export const App = () => {
-    return (
-        <>
-            <Header />
-            <Resume />
-            <GlobalStyle />
-        </>
-    );
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Resume />
+      <GlobalStyle />
+    </>
+  );
 };
 
 export default App;
